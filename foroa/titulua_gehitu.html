@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="eu">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<title>FOROA Tema berria</title>
+		<meta name="description" content="">
+		<meta name="author" content="Urtzi Diaz Arberas">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<section id="slide">
+		<div id="slideshow">
+			<ul>
+        		<li><img src="img/slider2.jpg" alt="slide1" /></li>
+        		<li><img src="img/slider2.jpg" alt="slide3" /></li>
+        		<li><img src="img/slider3.jpg" alt="slide1" /></li>
+        		<li><img src="img/slider4.jpg" alt="slide3" /></li>
+			</ul>
+    	</div>
+
+	</section>
+
+	<header>
+		<section id="content">
+			<h1>
+				<strong><a style="text-decoration: none; color:#0d9ce0; " href="index.php" title="Foro home">FOROA</a></strong><a> AZKEN-AUKERA</a>
+			</h1>
+        	<b>Informazio gehiago: <span class="rest"> 652729490</span></b>
+    	</section>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="../index.php">HOME</a></li>
+			<li><a  href="../nortzuk.html">NORTZUK GARA?</a></li>
+			<li><a  href="../argazkiak.html">ARGAZKIAK</a></li>
+			<li><a  href="../bideoak.html">BIDEOAK</a></li>
+			<li><a  href="../audioak.html">AUDIOAK</a></li>
+			<li><a style='background-color: grey' href="../foroak.html">FOROAK</a></li>
+			<li><a href="../kontaktua.html">KONTAKTUA</a></li>
+	    </ul>
+	</nav>
+
+	<section id="encard">
+    	<h2 >TEMA BERRIA</h2>
+    	<div class="temaBerria">
+    		<fieldset>
+		        <form action="titulua_gehitu.php" method="post" id="form2">
+		           <p>
+		            <br />
+		            <label for='izena'>Izena:</label>
+					<input type='text' name='izena'placeholder='Idatzi izena hemen' required><br/>
+		            <br />
+		            <label for='eposta'>E-posta(igorlea):</label>
+					<input type='email' name='eposta'placeholder='Idatzi posta hemen' required>
+					<input type="checkbox" name="ezkutua" id="ezkutua">
+					<label for="ezkutua">Nire e-posta ezkutuan mantendu nahi dut.</label><br/>
+					<br />
+					<label for='titulua'>Titulua:</label>
+					<input type='text' name='titulua'placeholder='Idatzi titulua hemen' required><br/>
+		            <br />
+		            <label for='iruzkina'>Mezua:</label><br/>
+					<textarea name="iruzkina" rows="17" cols="46"placeholder='Idatzi asuntua hemen'required></textarea>
+		            <br />
+		      
+		            <input type="submit" value="Bidali" />
+		            <input type="reset"  value="Ezbatu" />
+		        </p>
+		        </form>
+		    </fieldset>
+
+    	</div>
+	    
+	</section>
+
+	<footer>
+		<p>
+			&copy; Copyright  by Urtzi Diaz Arberas
+		</p>
+	</footer>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="js/craftyslide.min.js"></script>
+	<script>
+		$("#slideshow").craftyslide();
+	</script> 
+	</body>
+</html>

@@ -1,0 +1,584 @@
+body{
+	background-color: #A9A9A9; 
+	font-family: "Helvetica", Arial;
+	background-image: url(media/images/al.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed; 
+	background-position: top;
+	background-size: 100% 100%;
+}
+
+#kont{
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+h1{
+	color: #FFD700;
+	font-family: 'Russo One', sans-serif;
+	margin: 0 auto;
+}
+
+header h1{
+	border-bottom: solid;
+	padding-bottom: 10px;
+	border-width: 2px;
+	border-color: #FFD700;
+	font-family: 'Bangers', cursive;
+	font-weight: normal;
+	font-size:75px;
+	text-shadow:0px 0px 30px rgba(0,0,0,0.9);
+}
+
+
+
+
+#text1{
+	width: 900px;
+	padding-bottom:30px;
+	height:90%;
+	background-color: black;
+	color: white;
+	margin: 0 auto;
+	text-align: left;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0px 0px 50px rgba(0,0,0,0.9);
+}
+
+a{
+	color: #DAA520;
+	font-weight: bold;
+}
+/*------------------------------------------------------------*/
+
+
+
+/* Nabigazio menua */
+
+nav li a{
+	background-color: #FFD700;
+	color: black;
+	font-family: 'Russo One', sans-serif;
+	padding: 5px 5px;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.9);
+	border-radius: 5px;
+
+}	
+
+ul,ol{
+		list-style: none;
+}
+
+nav > li {
+	float: left;
+}
+
+nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 300px;
+}
+
+nav li:hover > ul{
+	display: block;
+}
+
+nav li ul li {
+	position: relative;
+}
+
+
+nav li ul {
+	margin:;
+	width: 10px;
+	font-family: 'Russo One', sans-serif;
+	padding: 0px;
+}
+
+
+nav li a:hover{
+	background-color:#C0C0C0;
+}
+	
+	
+nav > li {
+	float: left;	
+}
+
+nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 140px;	
+}
+	
+nav li:hover > ul{
+	display: block;		
+}
+
+
+nav li ul li {
+	position: relative;
+}
+
+nav li ul li ul{
+	right: -140px
+	top:0px;
+}
+
+
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+	color:#DAA520;
+	cursor: pointer;
+	padding: 5px;
+
+	transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+}
+
+nav ul li:hover{
+	background-color: black;
+	border-radius: 5px;
+}
+nav ul li a{
+	text-decoration: none;
+}
+/*------------------------------------------------------------*/
+
+
+
+/* FOOTER */
+
+.log img{
+		margin: 0 auto;
+		width:650px;
+		height: 100px;
+		border-radius: 15px;
+		
+}
+
+
+
+/* ------------------------------------------------------------------*/
+
+
+
+
+/* Menu Sareak */
+
+#menusoziala {
+
+
+		background-color: transparent;
+		width:450px;
+		height: 26px;
+		position: relative;
+		top: 2px;
+
+		}
+
+
+#menusoziala ul li {
+        display: inline-block;
+        vertical-align: top;
+        padding: 0px 0px; /*Separar el texto*/
+        margin:1px; /* Separar los botones */
+
+}
+
+#menusoziala ul li a img {
+		/*display: inline-block;*/
+		width:26px;
+		height:26px;
+		transition: all 0.3s ease;
+		-moz-transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+
+}
+#menusoziala ul li a img:hover
+{
+	opacity:0.7;
+}
+
+/*------------------------------------------------------------*/
+
+ 
+
+/* INDEX */
+
+.index{
+	
+
+}
+
+.hbideo{
+	margin-top: 30px;
+	text-decoration: none;
+	box-shadow: 0px 0px 20px DarkGray ;
+	border-radius: 5px;
+    height: 300px;
+	width: 410px;
+	margin-left:10px;
+}
+
+
+
+.albisteak{
+	margin-top:-100px;
+	margin-left:10px;
+	height: 95%;
+	width: 45%;
+
+}
+.albisteak p{
+	padding:10px;
+	text-indent: 2.5em;
+	box-shadow: 0px 0px 20px #FFD700;
+	border-radius: 15px;
+	background-color:#000000;
+}
+
+.albisteak p:first-line{
+	margin-top: 50px;
+}
+
+
+.albisteak p:first-letter{
+	color: #FFD700;
+	font-size: 20px;
+	text-indent: 2.5em;
+
+		
+}
+
+.twitter {
+    margin-top: 0px;
+	width: 400px;
+	text-decoration: none;
+
+}
+
+
+
+
+.twitter-timeline{
+	width: 400px;
+	height: 490px;
+	box-shadow: 0px 0px 15px DarkGray ;
+	border-radius: 5px;
+}
+
+
+
+
+/* ------------------------------------------------------------------*/
+
+/* NORTZUK */
+
+.zatiketaN{
+	display: inline-block;
+	width: 45%;
+}
+.norI{
+	margin-left:20px; 
+	margin-top:35px; 
+	font-size:18px
+
+}
+
+/* ------------------------------------------------------------------*/
+
+/* ARGAZKI GALERIA */
+
+#gallery{
+
+}
+
+
+#gallery li{
+	list-style: none;
+	float: left;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+#gallery a img{
+	border:5px solid #aaa;
+
+}
+
+
+#gallery a:hover img{
+	border:5px solid #75879d;
+		opacity:0.7;
+}
+
+.orrialdeZ{
+	margin-top: 515px; 
+	width: 930px; 
+	height: 70px;
+	font-size: 25px;
+	text-shadow: 1px 1px 5px #fff;
+	font-family: 'Russo One', sans-serif;
+}
+.orrialdeZ1{
+	height: 30px;
+}
+
+.orrialdeZ2 {
+	margin-top: 24px;
+	text-decoration: none;
+	text-align: right;
+}
+
+.orrialdeZ2 a:hover{
+	text-shadow: 1px 1px 5px  #FFD700;
+	opacity:0.7;
+}
+
+
+.orrialdeZ3 {
+	height: 30px;
+}
+
+.orrialdeZ3 a:hover{
+	text-shadow: 1px 1px 5px  #FFD700;
+	opacity:0.7;
+}
+
+/* ------------------------------------------------------------------*/
+
+
+/* BIDEOAK */
+
+
+     .bideoak embed{
+      	padding: 10px;
+      	box-shadow: 0px 0px 10px  #FFD700;
+      	margin: 15px;
+      }
+       .video-container {
+        display: inline-block;
+        text-align: center;
+        margin-top: 15px;
+      }
+      
+
+
+
+
+.orrialdeB{
+	margin-top: 0px; 
+	width: 1000px; 
+	height: 70px;
+	font-size: 25px;
+	text-shadow: 1px 1px 5px #fff;
+	font-family: 'Russo One', sans-serif;
+
+}
+.orrialdeB1{
+	height: 30px;
+}
+
+.orrialdeB2 {
+	margin-top: 24px;
+	text-decoration: none;
+	text-align: right;
+
+}
+
+.orrialdeB2 a:hover{
+	text-shadow: 1px 1px 5px  #FFD700;
+	opacity:0.7;
+}
+
+
+.orrialdeB3 {
+	height: 30px;
+}
+
+.orrialdeB3 a:hover{
+	text-shadow: 1px 1px 5px  #FFD700;
+	opacity:0.7;
+}
+
+/* ------------------------------------------------------------------*/
+
+
+
+/* FOROAK */
+
+#foroak img{
+
+	border-radius: 5px; 
+	box-shadow: 0px 0px 15px #C0C0C0;
+	height: 240px;
+	width: 350px;
+}
+
+#foroak img:hover{
+
+	opacity:0.7;
+	box-shadow: 0px 0px 15px #FFD700;
+}
+
+
+p#socialicons img{ /* Primer set de iconos. Gira 360 grados y regresa */
+-moz-transition: all 0.8s ease-in-out;
+-webkit-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+-ms-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out;
+}
+
+p#socialicons img:hover{
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+
+/* ------------------------------------------------------------------*/
+
+
+/* FOROAKAA */
+#foroakaa{
+	margin: 0 auto;
+}
+
+
+}
+/* ------------------------------------------------------------------*/
+
+
+/* FOROAKTW */
+#foroaktw{
+	margin: 0 auto;
+    height: 660px;
+	width: 500px;
+}
+
+.twitter2{
+	margin: 0 auto;
+	padding-left: 100px;
+    height: 600px;
+	width: 500px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+
+
+
+/* ------------------------------------------------------------------*/
+
+/* KONTAKTUA */
+label{
+	display: block;
+}
+#btnSubmit{
+	border: none;
+	background-color: #FFFF99;
+	font-weight: bold;
+	color: #B2B200;
+	padding: 10px;
+	cursor: pointer;
+	box-shadow: 0px 0px 10px #FFD700;
+	border-radius: 5px;
+}
+
+#btnSubmit:hover{
+
+	opacity:0.7;
+	box-shadow: 0px 0px 15px red;
+	color: red;
+}
+
+.form{
+}
+
+.form label{
+	margin-left: 5px;
+	margin-right: 2px;
+	margin-bottom: 10px
+	margin-top:0px;
+
+}
+
+.form input{
+	margin-left: 0px;
+	margin: 10px;
+}
+
+
+#kontak{
+	box-sizing:border-box;
+}
+
+.zatiketa1{
+	float: left;
+	width: 45%;
+	text-align: center;
+}
+.zatiketa2{
+	float: right;
+	width: 45%;
+}
+
+input:focus{
+	background-color: #FFFF66;
+}
+input:hover{
+	background-color: #FFFF66;
+}
+
+textarea:focus{
+	background-color: #FFFF66;
+}
+textarea:hover{
+	background-color: #FFFF66;
+}
+
+/*
+p#socialicons3 input{  
+-moz-transition: all 0.2s ease-in-out;
+-webkit-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+
+p#socialicons3 input:hover{
+-moz-transform: rotate(10deg);
+-webkit-transform: rotate(10deg);
+-o-transform: rotate(10deg);
+-ms-transform: rotate(10deg);
+transform: rotate(10deg);
+}*/
+
+
+
+
+.zoom{
+		transition: 1.5s ease;
+ 		-moz-transition: 1.5s ease; /* Firefox */
+ 		-webkit-transition: 1.5s ease; /* Chrome - Safari */
+ 		-o-transition: 1.5s ease; /* Opera */
+	}
+	.zoom:hover{
+		transform : scale(1.5);
+		-moz-transform : scale(1.5); /* Firefox */
+		-webkit-transform : scale(1.5); /* Chrome - Safari */
+		-o-transform : scale(1.5); /* Opera */
+		-ms-transform : scale(1.5); /* IE9 */
+	}
+/* -----------------------------------------------------------*/

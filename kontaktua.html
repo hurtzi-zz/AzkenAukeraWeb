@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="eu">
+	<head>
+		<title>A-A: Kontaktatu</title>
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta name="author" content="Urtzi Diaz Arberas">
+		<link rel="stylesheet"  href="aa.css">
+		<link href='http://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet'>
+		<link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+		<script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+		<script src='scriptNagusia.js'></script>
+	</head>
+
+	<!--  -->
+
+	<body>
+		<div id="kont">
+			<header><!--definir encabezado-->
+					<h1>AZKEN&nbsp;<a href="index.php"><img alt="HOME" src="media/images/logo.png" title="HOME"></a> AUKERA</h1>
+				<nav><!-- botonera de navegacion -->
+					<ul><!-- listas desordenadas -->
+						<li><a href="index.php">HOME</a></li><!-- agregar elento a la lista -->
+							<li><a  href="nortzuk.html">NORTZUK GARA?</a></li>
+							<li><a  href="">GALERIAK</a>
+							 		<ul>
+							 			<li><a href="argazkiak.html">ARGAZKIAK</a></li>
+							 			<li><a  href="bideoak.html">BIDEOAK</a></li>
+							 			<li><a  href="audioak.html">AUDIOAK</a></li>
+							 		</ul>
+							 </li>		
+							 <li><a href="foroak.html">FOROAK</a></li>
+							 <li><a   style='background-color: grey' href="kontaktua.html">KONTAKTUA</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section><!--una neva secion de una pagina-->
+				<div id="text1" style=' height: 590px;'>
+						<h1>KONTAKTUA</h1>
+						<div id='kontak'>
+							<div class='zatiketa1' style="padding-top: 25px; padding-left: 10px; ">
+								<img src="media/images/kontak.jpg" style='border-radius: 5px; box-shadow: 0px 0px 15px #FFD700;' alt="aa" height="380" width="450" />
+								<form style="padding-top: 50px;">
+									<aside><!--anuncios,redes social...-->
+										<a href="mailto:" >urtzidiaz@hotmail.com</a>
+										<p>tlfn: 652729490</p>
+									</aside>
+								</form>
+							</div>
+							<div class='zatiketa2'>
+									<h2 style='margin-top:0px' >Jarri kontaktuan gurekin:</h2>
+									<form class='form' action="email/email_bidali.php" method="post">
+
+										<label>E-posta(igorlea):</label>
+										<input type='email' name="eposta" placeholder='Idatzi zure correoa hemen' required><br/>
+									
+										<label>Asuntua:</label>
+										<input  type='text' name="asuntua" placeholder='Idatzi asuntua hemen' required><br/>
+									
+										<label for='mezua'>Mezua:</label>
+										<textarea name="mezua" id='mezua' rows="17" cols="46" placeholder='Idatzi mezua hemen' required></textarea>
+									
+										<p id="socialicons3">
+											<input class="zoom" type='submit' value='Bidali correoa' id='btnSubmit' >
+										</p>
+
+								</form>
+							</div>
+						</div>
+				</div>
+			</section>
+		</div>
+		<footer><!--pie de pag...-->
+			<p>
+				&copy; Copyright  by Urtzi Diaz Arberas
+			</p>
+		</footer>
+	</body>
+</html>

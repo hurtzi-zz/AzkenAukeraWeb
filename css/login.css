@@ -1,0 +1,30 @@
+
+
+
+
+fieldset
+{
+    border: dashed;
+    width:900px;
+    margin-left: 50px;
+    
+}
+
+legend
+{
+    color: white;
+    font-size: large;
+}#kaxa
+{
+    text-align: left;
+    float: right;
+    border: solid;
+    width: 200px;
+}
+
+#Erregistroa
+{
+    text-align: right;
+    float: right;
+    width: 150px;
+}

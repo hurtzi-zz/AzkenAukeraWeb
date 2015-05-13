@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT iritziak (titulua)*>
+<!ATTLIST iritziak azkenId CDATA #IMPLIED
+  >
+
+  <!ELEMENT foroa (izena|data|iruzkina|erantzunak|eposta?)*>
+<!ATTLIST 
+    titulua CDATA #IMPLIED
+    id CDATA #IMPLIED
+  >
+<!ELEMENT izena (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT eposta (#PCDATA)>
+<!ATTLIST esposta erakutsi  (bai|ez) "ez">
+<!ELEMENT iruzkina (#PCDATA)>
+
+<!ELEMENT erantzunak (erantzuna)*>
+<!ATTLIST iritziak azkenId_era CDATA #IMPLIED
+  >
+<!ELEMENT erantzuna (testua_era|data_era|izena_era|eposta_era)*>
+<!ATTLIST 
+    id_era CDATA #IMPLIED
+  >
+<!ELEMENT izena_era (#PCDATA)>
+<!ELEMENT data_era (#PCDATA)>
+<!ELEMENT eposta_era (#PCDATA)>
+<!ATTLIST esposta_era erakutsi  (bai|ez) "ez">
